@@ -8,10 +8,12 @@ import './App.less';
 import Home from './containers/home/Home';
 import BlockTemplate from './containers/template-1-col-block/Template';
 import GridTemplate from './containers/template-24-col-grid/Template';
+import Signup_PF_P2 from './containers/Signup_PF_P2/Signup_PF_P2';
 
 import NotFound from './containers/not-found/NotFound';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+
 import { Layout } from 'antd';
 const { Content } = Layout;
 
@@ -34,6 +36,7 @@ const App: React.FC = () => {
                 <Route path="/" exact component={Home} />
                 <Route path="/block-template" exact component={BlockTemplate} />
                 <Route path="/grid-template" exact component={GridTemplate} />
+                <Route path="/signup-pf-p2" exact component={Signup_PF_P2}  />
                 <Route path="*" exact component={NotFound} />
               </Switch>
             </div>

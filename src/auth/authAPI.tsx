@@ -5,6 +5,7 @@ enum ROUTES {
   LOGIN = '/api/v1/user/login/',
   SIGNUP = '/api/v1/user/signup/',
   REFRESH = '/api/v1/user/login/refresh/',
+
 }
 
 interface LoginRequest {
