@@ -8,7 +8,7 @@ module.exports = {
         lessLoaderOptions: {
           lessOptions: {
             //This is where we override LESS global variables
-            modifyVars: { '@font-family': "'IBM Plex Sans', sans-serif" },
+            modifyVars: { '@font-family': "'Raleway', sans-serif" },
             javascriptEnabled: true,
           },
         },
