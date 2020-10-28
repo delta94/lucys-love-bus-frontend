@@ -17,7 +17,7 @@ const { Content } = Layout;
 
 const App: React.FC = () => {
   return (
-    <>
+    <div className="global">
       <Helmet>
         <meta
           name="keywords"
@@ -41,7 +41,7 @@ const App: React.FC = () => {
           <Footer />
         </Layout>
       </Router>
-    </>
+    </div>
   );
 };
 
